@@ -1,11 +1,8 @@
-import React, { Component } from 'react'
 
-export class FullName extends Component {
-  render() {
-    return (
-      <div>Sarah Hammami</div>
-    )
-  }
+import React from 'react'
+
+export default function FullName() {
+  return (
+    <div>Sarah Hammami</div>
+  )
 }
-
-export default FullName
